@@ -1,0 +1,48 @@
+PS F:\Users\Customer\Desktop\Computer Science Uni\_Final year dissertation\PlantIdentifier> python load_model.py
+2022-04-23 16:46:45.038337: I tensorflow/core/platform/cpu_feature_guard.cc:151] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-04-23 16:46:45.957975: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1525] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 1318 MB memory:  -> device: 0, name: GeForce GTX 1050, pci bus id: 0000:01:00.0, compute capability: 6.1
+1 Physical GPUs, 1 Logical GPUs
+2022-04-23 16:47:00.763265: I tensorflow/stream_executor/cuda/cuda_dnn.cc:366] Loaded cuDNN version 8303
+2022-04-23 16:47:01.893592: I tensorflow/stream_executor/cuda/cuda_driver.cc:739] failed to allocate 808.97M (848264704 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2022-04-23 16:47:02.384694: W tensorflow/core/common_runtime/bfc_allocator.cc:275] Allocator (GPU_0_bfc) ran out of memory trying to allocate 1.08GiB with freed_by_count=0. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory were available.
+2022-04-23 16:47:02.485396: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1525] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 1318 MB memory:  -> device: 0, name: GeForce GTX 1050, pci bus id: 0000:01:00.0, compute capability: 6.1
+Prediction: 1355936, with a confidence of 0.9947548
+PS F:\Users\Customer\Desktop\Computer Science Uni\_Final year dissertation\PlantIdentifier> python load_model.py
+2022-04-23 16:48:31.301535: I tensorflow/core/platform/cpu_feature_guard.cc:151] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-04-23 16:48:32.193755: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1525] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 1318 MB memory:  -> device: 0, name: GeForce GTX 1050, pci bus id: 0000:01:00.0, compute capability: 6.1
+1 Physical GPUs, 1 Logical GPUs
+2022-04-23 16:48:46.818383: I tensorflow/stream_executor/cuda/cuda_dnn.cc:366] Loaded cuDNN version 8303
+2022-04-23 16:48:47.909937: I tensorflow/stream_executor/cuda/cuda_driver.cc:739] failed to allocate 808.97M (848264704 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2022-04-23 16:48:48.400552: W tensorflow/core/common_runtime/bfc_allocator.cc:275] Allocator (GPU_0_bfc) ran out of memory trying to allocate 1.08GiB with freed_by_count=0. The caller indicates that this is not a failuPrediction: 1355936, with a confidence of 0.9947548
+PS F:\Users\Customer\Desktop\Computer Science Uni\_Final year dissertation\PlantIdentifier> python load_model.py
+2022-04-23 16:48:31.301535: I tensorflow/core/platform/cpu_feature_guard.cc:151] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-04-23 16:48:32.193755: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1525] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 1318 MB memory:  -> device: 0, name: GeForce GTX 1050, pci bus id: 0000:01:00.0, compute capability: 6.1
+1 Physical GPUs, 1 Logical GPUs
+2022-04-23 16:48:46.818383: I tensorflow/stream_executor/cuda/cuda_dnn.cc:366] Loaded cuDNN version 8303
+2022-04-23 16:48:47.909937: I tensorflow/stream_executor/cuda/cuda_driver.cc:739] failed to allocate 808.97M (848264704 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2022-04-23 16:48:48.400552: W tensorflow/core/common_runtime/bfc_allocator.cc:275] Allocator (GPU_0_bfc) ran out of memory trying to allocate 1.08GiB with freed_by_count=0. The caller indicates that this is not a failu2022-04-23 16:48:48.468522: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1525] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 1318 MB memory:  -> device: 0, name: GeForce GTX 1050, pci bus id: 0000:01:00.0, compute capability: 6.1
+Prediction: 1355937, with a confidence of 0.9996631
+PS F:\Users\Customer\Desktop\Computer Science Uni\_Final year dissertation\PlantIdentifier> python load_model.py
+2022-04-23 16:49:19.899665: I tensorflow/core/platform/cpu_feature_guard.cc:151] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-04-23 16:49:20.859093: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1525] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 1318 MB memory:  -> device: 0, name: GeForce GTX 1050, pci bus id: 0000:01:00.0, compute capability: 6.1
+1 Physical GPUs, 1 Logical GPUs
+2022-04-23 16:49:35.601210: I tensorflow/stream_executor/cuda/cuda_dnn.cc:366] Loaded cuDNN version 8303
+2022-04-23 16:49:36.693139: I tensorflow/stream_executor/cuda/cuda_driver.cc:739] failed to allocate 808.97M (848264704 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2022-04-23 16:49:37.190686: W tensorflow/core/common_runtime/bfc_allocator.cc:275] Allocator (GPU_0_bfc) ran out of memory trying to allocate 1.08GiB with freed_by_count=0. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory were available.
+2022-04-23 16:49:37.265810: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1525] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 1318 MB memory:  -> device: 0, name: GeForce GTX 1050, pci bus id: 0000:01:00.0, compute capability: 6.1
+Prediction: 1355868, with a confidence of 0.97754806
+PS F:\Users\Customer\Desktop\Computer Science Uni\_Final year dissertation\PlantIdentifier> python load_model.py
+2022-04-23 17:02:54.047432: I tensorflow/core/platform/cpu_feature_guard.cc:151] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-04-23 17:02:55.011994: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1525] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 1318 MB memory:  -> device: 0, name: GeForce GTX 1050, pci bus id: 0000:01:00.0, compute capability: 6.1
+1 Physical GPUs, 1 Logical GPUs
+2022-04-23 17:03:09.885927: I tensorflow/stream_executor/cuda/cuda_dnn.cc:366] Loaded cuDNN version 8303
+2022-04-23 17:03:11.607418: I tensorflow/stream_executor/cuda/cuda_driver.cc:739] failed to allocate 808.97M (848264704 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2022-04-23 17:03:12.178588: W tensorflow/core/common_runtime/bfc_allocator.cc:275] Allocator (GPU_0_bfc) ran out of memory trying to allocate 1.08GiB with freed_by_count=0. The caller indicates that this is not a failure, but may mean that there could be performance gains if more memory were available.
+2022-04-23 17:03:12.244434: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1525] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 1318 MB memory:  -> device: 0, name: GeForce GTX 1050, pci bus id: 0000:01:00.0, compute capability: 6.1
+Prediction: 1355932, with a confidence of 0.97617143
+PS F:\Users\Customer\Desktop\Computer Science Uni\_Final year dissertation\PlantIdentifier>

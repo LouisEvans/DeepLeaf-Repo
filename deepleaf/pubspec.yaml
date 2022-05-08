@@ -1,0 +1,70 @@
+name: deepleaf
+description: Automatic plant identifier.
+
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+
+  #Provider - State management
+  provider: ^5.0.0
+
+  #Google Fonts - Styling
+  google_fonts: ^2.3.1
+
+  #Camera - Camera API
+  camera: ^0.9.4+19
+
+  #Sliding Up Panel - Displaying results
+  sliding_up_panel: ^2.0.0+1
+
+  #Image - Interacting with images
+  image: ^3.1.3
+
+  #Hive - Local storage
+  hive_flutter: ^1.1.0
+
+  #Image Picker - Accessing camera roll / gallery
+  image_picker: ^0.8.5
+
+  #TFLite - Running TensorFlow models
+  tflite: ^1.1.2
+
+  #Path Provider - Obtaining temporary local directories
+  path_provider: ^2.0.9
+
+  #HTTP - Connecting to the internet (Wikipedia API)
+  http: ^0.13.3
+
+  #Native OpenCV - GrabCut algorithm
+  native_opencv:
+    path: ../native_opencv
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  
+  #Hive Generator and Build Runner - Generating Hive object constructors
+  hive_generator: ^1.1.2
+  build_runner: ^2.1.10
+
+  flutter_lints: ^1.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - splash.png
+    - houseplant.png
+    - flowermodel.tflite
+    - finalmodel.tflite
+    - labels.json
+    - labels.txt
+    - flowerlabels.txt

@@ -1,0 +1,55 @@
+PS F:\Users\Customer\Desktop\Computer Science Uni\_Final year dissertation\PlantIdentifier> python cnn.py
+2022-04-07 20:16:02.478321: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'cudnn64_8.dll'; dlerror: cudnn64_8.dll not found
+2022-04-07 20:16:02.485358: W tensorflow/core/common_runtime/gpu/gpu_device.cc:1850] Cannot dlopen some GPU libraries. Please make sure the missing libraries mentioned above are installed properly if you would like to 
+use GPU. Follow the guide at https://www.tensorflow.org/install/gpu for how to download and setup the required libraries for your platform.
+Skipping registering GPU devices...
+Num GPUs Available:  0
+22-04-07 20:16:02.520374: I tensorflow/core/platform/cpu_feature_guard.cc:151] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+Model created successfully!
+Model: "model"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #
+=================================================================
+ input_1 (InputLayer)        [(None, 600, 600, 3)]     0
+
+ conv2d (Conv2D)             (None, 598, 598, 16)      448
+
+ max_pooling2d (MaxPooling2D  (None, 299, 299, 16)     0
+ )
+
+ conv2d_1 (Conv2D)           (None, 297, 297, 32)      4640
+
+ max_pooling2d_1 (MaxPooling  (None, 148, 148, 32)     0
+ 2D)
+
+ conv2d_2 (Conv2D)           (None, 146, 146, 64)      18496
+
+ max_pooling2d_2 (MaxPooling  (None, 73, 73, 64)       0
+ 2D)
+
+ flatten (Flatten)           (None, 341056)            0
+
+ dense (Dense)               (None, 512)               174621184
+
+ dropout (Dropout)           (None, 512)               0
+
+ dense_1 (Dense)             (None, 5)                 2565
+
+=================================================================
+Total params: 174,647,333
+Trainable params: 174,647,333
+Non-trainable params: 0
+_________________________________________________________________
+Found 10650 images belonging to 5 classes.
+Found 1335 images belonging to 5 classes.
+cnn.py:82: UserWarning: `Model.fit_generator` is deprecated and will be removed in a future version. Please use `Model.fit`, which supports generators.
+  history = model.fit_generator(
+Epoch 1/3
+426/426 - 4545s - loss: 1.3223 - acc: 0.5083 - val_loss: 0.9584 - val_acc: 0.5581 - 4545s/epoch - 11s/step
+Epoch 2/3
+426/426 - 4233s - loss: 0.9420 - acc: 0.5661 - val_loss: 0.8795 - val_acc: 0.6082 - 4233s/epoch - 10s/step
+Epoch 3/3
+426/426 - 3764s - loss: 0.8965 - acc: 0.5877 - val_loss: 1.0493 - val_acc: 0.5700 - 3764s/epoch - 9s/step
+Completed
+2022-04-07 23:45:14.174064: W tensorflow/python/util/util.cc:368] Sets are not currently considered sequences, but this may change in the future, so consider avoiding using them.
