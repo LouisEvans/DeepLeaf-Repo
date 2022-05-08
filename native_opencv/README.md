@@ -1,6 +1,8 @@
 # Native OpenCV (GrabCut only)
 This repository contains the code for the application layer of the `native_opencv` Flutter plugin. This plugin currently only exposes the GrabCut function.
 
+NOTE: 13 files needed to be removed in order to upload this repository to GitHub, as the file limit was exceeded. These files include all TensorFlow models, TFLite models, and the OpenCV framework. These files are accessible via request.
+
 | ![Original](https://i.imgur.com/2wybpac.jpg) | ![GrabCut](https://i.imgur.com/9PAEOZ9.jpg) |
 |--|--|
 

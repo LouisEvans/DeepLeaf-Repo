@@ -1,6 +1,8 @@
 # DeepLeaf - TensorFlow Repository
 This repository contains all the code needed to run the plant classifiers. These models were trained on the Pl@ntNet dataset (31GB), which can be found here: https://zenodo.org/record/4726653#.YhNbAOjMJPY. The folder should be placed in the directory above this one. Directories within this repository may need to be changed.
 
+NOTE: 13 files needed to be removed in order to upload this repository to GitHub, as the file limit was exceeded. These files include all TensorFlow models, TFLite models, and the OpenCV framework. These files are accessible via request.
+
 ## Structure
 Python files in the root directory are the core TensorFlow training scripts.
 
